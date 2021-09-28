@@ -1,0 +1,67 @@
+body{
+    padding: 50px 100px 80px 100px;
+}
+#root{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    font-size: 36px;
+    color: #ff8331;
+    font-weight: 700;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    margin: 30px 0;
+    background-color: #d2d6da;
+}
+
+/* contact */
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+.contact .profile{
+    height: 240px;
+}
+.contact .content{
+    padding: 24px;
+}
+
+/* introduce */
+.introduce{
+    margin-top: 8px;
+}
+.introduce .content{
+   margin-bottom: 24px;
+}
+
+/* experience */
+.experience{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+.experience:not(:last-child){
+    padding-bottom: 30px;
+    border-bottom: 1px solid #d2d6da;
+}
+.experience .experience_item:nth-child(odd){
+    width: 25%;
+}
+.experience .experience_item:nth-child(even){
+    width: 75%;
+}
+.experience .line_space{margin: 24px;}
+
+/* license */
+.license{
+    margin-top: 8px;
+}
+
+/* education */
+.education{
+    margin-top: 8px;
+}
