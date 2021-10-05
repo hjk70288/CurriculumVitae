@@ -26,7 +26,7 @@ function Main(){
                                 <div className='title'>contact</div>
                                 <p>Email. <b>hjk70288@gmail.com</b></p>
                                 <p>Phone. <b>010-3703-0728</b></p>
-                                <p>GitHub. <b>https://github.com/hjk70288</b></p>
+                                <p>GitHub. <b><a href='https://github.com/hjk70288'>https://github.com/hjk70288</a></b></p>
                             </div>
                         </div>
                         <div className='line'></div>
@@ -81,7 +81,7 @@ function Main(){
                                 <div><b>시각 장애인을 위한 학습 보조 점자 시스템 개발</b></div>
                                 <ul>
                                     <li>사용자로부터 이미지를 전송받아 OCR을 통해 텍스트를 추출하는 서버 개발</li>
-                                    <li>서버는 AWS의 EC2 인스턴스로 개발</li>
+                                    <li>서버는 AWS의 EC2(Ubuntu 18.04) 인스턴스로 개발</li>
                                 </ul>
                             </div>
                         </div>
@@ -133,8 +133,8 @@ function Main(){
                             </ul>
                             <div><b>교내 수상 경력</b></div>
                             <ul>
-                                <li>2019 KPU 소프트웨어 경진대회 장려상 수상</li>
-                                <li>2020 KPU 소프트웨어 경진대회 장려상 수상</li>
+                                <li>2019 KPU 소프트웨어 경진대회 장려상 수상(2019.10)</li>
+                                <li>2020 KPU 소프트웨어 경진대회 장려상 수상(2020.10)</li>
                             </ul>
                         </div>
                         <div className='line'></div>

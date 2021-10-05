@@ -47,6 +47,10 @@ ul > li{
 .contact .content{
     padding: 24px 30px 0 0;
 }
+.contact .content a{
+    color: #000000;
+    text-decoration: none;
+}
 
 /* introduce */
 .introduce{
