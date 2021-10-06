@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../assets/css/layout.css';
+import profile from '../assets/image/profile.jpg';
 import Fade from 'react-reveal/Fade';
 import ReactPageScroller from "react-page-scroller";
 
@@ -21,7 +22,7 @@ function Main(){
                     <Fade left duration={1200}>
                         <h3>개발자 김용민 입니다.</h3>                        
                         <div className='contact'>
-                            <img className='profile' src='https://avatars.githubusercontent.com/u/56548968?v=4' alt=''></img>
+                            <img className='profile' src={profile} alt=''></img>
                             <div className='content'>
                                 <div className='title'>contact</div>
                                 <p>Email. <b>hjk70288@gmail.com</b></p>
@@ -143,10 +144,11 @@ function Main(){
                         <div className='title'>Skill</div>
                         <div>
                             <ul>
-                                <li>Front-End: HTML5/CSS3, Javascript(ES6), JSP, JQuery, React.js</li>
-                                <li>Back-End: AWS(EC2, S3), Node.js</li>
-                                <li>Database: Maria DB(Mysql)</li>
-                                <li>Environment: AWS, Linux, macOS, UNIX, Windows</li>
+                                <li><b>Front-End:</b> HTML5/CSS3, Javascript(ES6), JSP, JQuery, React.js</li>
+                                <li><b>Back-End:</b> AWS(EC2, S3), Node.js</li>
+                                <li><b>Database:</b> Maria DB(Mysql)</li>
+                                <li><b>Environment:</b> AWS, Linux, macOS, UNIX, Windows</li>
+                                <li><b>Configuration Management:</b> Git(GitHub, GitLab)</li>
                             </ul>
                         </div>
                         <div className='line'></div>
