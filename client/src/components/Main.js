@@ -20,9 +20,11 @@ function Main(){
             <div className='full_page'>
                 <div className='container'>
                     <Fade left duration={1200}>
-                        <h3>개발자 김용민 입니다.</h3>                        
+                        <h3 className='me'>개발자 김용민 입니다.</h3>                        
                         <div className='contact'>
-                            <img className='profile' src={profile} alt=''></img>
+                            <div className='profile_wrap'>
+                                <img className='profile' src={profile} alt=''></img>
+                            </div>
                             <div className='content'>
                                 <div className='title'>contact</div>
                                 <p>Email. <b>hjk70288@gmail.com</b></p>
