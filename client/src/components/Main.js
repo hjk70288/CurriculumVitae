@@ -27,7 +27,7 @@ function Main(){
                             </div>
                             <div className='content'>
                                 <div className='title'>contact</div>
-                                <p>Email. <b>hjk70288@gmail.com</b></p>
+                                <p>Email. <b>kimyongmin1228@gmail.com</b></p>
                                 <p>Phone. <b>010-3703-0728</b></p>
                                 <p>GitHub. <b><a href='https://github.com/hjk70288'>https://github.com/hjk70288</a></b></p>
                             </div>
@@ -60,38 +60,6 @@ function Main(){
                         <div className='title'>Work Experience</div>
                         <div className='experience'>
                             <div className='experience_item'>
-                                <div><b>팀 프로젝트</b></div>
-                                2020.04-<br/>
-                                2020.04
-                            </div>
-                            <div className='experience_item'>
-                                <div><b>정왕동 맛집 추천 사이트 개발</b></div>
-                                <ul>
-                                    <li>JSP를 사용하여 개발</li>
-                                    <li>로그인, 로그아웃, 회원가입, 회원탈퇴등의 기본적인 기능들과 CRUD 기능을 탑재하고 있는 게시판, 페이징 및 검색 기능등을 개발</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </Fade>
-                    <Fade right duration={1200}>
-                        <div className='experience'>
-                            <div className='experience_item'>
-                                <div><b>졸업작품</b></div>
-                                2020.06-<br/>
-                                2021.08
-                            </div>
-                            <div className='experience_item'>
-                                <div><b>시각 장애인을 위한 학습 보조 점자 시스템 개발</b></div>
-                                <ul>
-                                    <li>사용자로부터 이미지를 전송받아 OCR을 통해 텍스트를 추출하는 서버 개발</li>
-                                    <li>서버는 AWS의 EC2(Ubuntu 18.04) 인스턴스로 개발</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </Fade>
-                    <Fade right duration={1300}>
-                        <div className='experience'>
-                            <div className='experience_item'>
                                 <div><b>프로젝트</b></div>
                                 2021.02-<br/>
                                 현재<br/>
@@ -117,6 +85,38 @@ function Main(){
                                     <li>(주)세븐미어캣 공식 회사 홈페이지 개발</li>
                                     <li>Web Back-End(Node.js, Maria DB)</li>
                                     <li>Web Front-End(CSS Module, Javascript(ES6), React.js)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </Fade>
+                    <Fade right duration={1200}>
+                        <div className='experience'>
+                            <div className='experience_item'>
+                                <div><b>졸업작품</b></div>
+                                2020.06-<br/>
+                                2021.08
+                            </div>
+                            <div className='experience_item'>
+                                <div><b>시각 장애인을 위한 학습 보조 점자 시스템 개발</b></div>
+                                <ul>
+                                    <li>사용자로부터 이미지를 전송받아 OCR을 통해 텍스트를 추출하는 서버 개발</li>
+                                    <li>서버는 AWS의 EC2(Ubuntu 18.04) 인스턴스로 개발</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </Fade>
+                    <Fade right duration={1300}>
+                        <div className='experience'>
+                            <div className='experience_item'>
+                                <div><b>팀 프로젝트</b></div>
+                                2020.04-<br/>
+                                2020.04
+                            </div>
+                            <div className='experience_item'>
+                                <div><b>정왕동 맛집 추천 사이트 개발</b></div>
+                                <ul>
+                                    <li>JSP를 사용하여 개발</li>
+                                    <li>로그인, 로그아웃, 회원가입, 회원탈퇴등의 기본적인 기능들과 CRUD 기능을 탑재하고 있는 게시판, 페이징 및 검색 기능등을 개발</li>
                                 </ul>
                             </div>
                         </div>
@@ -158,7 +158,7 @@ function Main(){
                     <Fade right duration={1700}>
                         <div className='title'>Education</div>
                         <div className='education'>
-                            2018.02-2021.02 한국산업기술대학교 컴퓨터공학과
+                            2018.02-2022.02 한국산업기술대학교 컴퓨터공학과
                         </div>
                     </Fade>
                 </div>
