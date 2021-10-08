@@ -1,6 +1,15 @@
 import React, { useState } from 'react';
 import '../assets/css/layout.css';
 import profile from '../assets/image/profile.jpg';
+import html_icon from '../assets/image/skill/html.png';
+import css_icon from '../assets/image/skill/css.png';
+import js_icon from '../assets/image/skill/js.png';
+import react_icon from '../assets/image/skill/react.png';
+import jquery_icon from '../assets/image/skill/jquery.png';
+import aws_icon from '../assets/image/skill/aws.svg';
+import nodejs_icon from '../assets/image/skill/nodejs.png';
+import maria_db_icon from '../assets/image/skill/maria_db.svg';
+import git_icon from '../assets/image/skill/git.png';
 import Fade from 'react-reveal/Fade';
 import ReactPageScroller from "react-page-scroller";
 
@@ -68,23 +77,31 @@ function Main(){
                             <div className='experience_item'>
                                 <div><b>주차장 관리자 페이지 개발</b></div>
                                 <ul>
-                                <li>주차장 관리소장들이 사용하는 주차장을 관리할 수 있는 관리자 페이지 개발</li>
-                                    <li>Web Back-End(Maria DB, Node.js)</li>
+                                    <li>주차장 관리소장들이 사용하는 주차장을 관리할 수 있는 관리자 페이지 개발</li>
                                     <li>Web Front-End(CSS3, EJS, Javascript(ES6), JQuery)</li>
+                                    <li>Web Back-End(Maria DB, Node.js)</li>
                                 </ul>
                                 <div className='line_space'></div>
                                 <div><b>중앙 관리자 페이지 개발</b></div>
                                 <ul>
                                     <li>주차장, 차량, 앱 사용자, 결제 등 세븐미어캣의 모든 통계를 분석하고 관리하는 관리자 페이지 개발</li>
-                                    <li>Web Back-End(Maria DB, Node.js)</li>
                                     <li>Web Front-End(CSS Module, Javascript(ES6), React.js)</li>
+                                    <li>Web Back-End(Maria DB, Node.js)</li>
                                 </ul>
                                 <div className='line_space'></div>
                                 <div><b>회사 홈페이지 개발</b></div>
                                 <ul>
                                     <li>(주)세븐미어캣 공식 회사 홈페이지 개발</li>
-                                    <li>Web Back-End(Node.js, Maria DB)</li>
                                     <li>Web Front-End(CSS Module, Javascript(ES6), React.js)</li>
+                                    <li>Web Back-End(Node.js, Maria DB)</li>
+                                </ul>
+                                <div className='line_space'></div>
+                                <div><b>세븐미어캣 API 서버 개발</b></div>
+                                <ul>
+                                    <li>주차장 발권기, 정산기 용지 부족시 카카오 알림톡 전송 API</li>
+                                    <li>주차장 정산기 QR결제 API</li>
+                                    <li>세븐미어캣 앱 Firebase(FCM) 푸시 알람 전송 API</li>
+                                    <li>Web Back-End(Node.js, Maria DB)</li>
                                 </ul>
                             </div>
                         </div>
@@ -105,25 +122,47 @@ function Main(){
                             </div>
                         </div>
                     </Fade>
-                    <Fade right duration={1300}>
-                        <div className='experience'>
-                            <div className='experience_item'>
-                                <div><b>팀 프로젝트</b></div>
-                                2020.04-<br/>
-                                2020.04
+                </div>
+            </div>
+
+            <div className='full_page'>
+                <div className='container'>
+                    <Fade left duration={1100}>
+                        <div className='title'>Tech Skills</div>
+                        <div className='skill_container'>
+                            <div className='skill_item'>
+                                <div className='sub_title'>Front-End</div>
+                                <div className='skills'>
+                                    <img src={html_icon} alt=''></img>
+                                    <img src={css_icon} alt=''></img>
+                                    <img src={js_icon} alt=''></img>
+                                    <img src={jquery_icon} alt=''></img>
+                                    <img src={react_icon} alt=''></img>
+                                </div>
                             </div>
-                            <div className='experience_item'>
-                                <div><b>정왕동 맛집 추천 사이트 개발</b></div>
-                                <ul>
-                                    <li>JSP를 사용하여 개발</li>
-                                    <li>로그인, 로그아웃, 회원가입, 회원탈퇴등의 기본적인 기능들과 CRUD 기능을 탑재하고 있는 게시판, 페이징 및 검색 기능등을 개발</li>
-                                </ul>
+                            <div className='skill_item'>
+                                <div className='sub_title'>Back-End</div>
+                                <div className='skills'>
+                                    <img src={aws_icon} alt=''></img>
+                                    <img src={nodejs_icon} alt=''></img>
+                                </div>
+                            </div>
+                            <div className='skill_item'>
+                                <div className='sub_title'>Database</div>
+                                <div className='skills'>
+                                    <img src={maria_db_icon} alt=''></img>
+                                </div>
+                            </div>
+                            <div className='skill_item'>
+                                <div className='sub_title'>Configuration Management</div>
+                                <div className='skills'>
+                                    <img src={git_icon} alt=''></img>
+                                </div>
                             </div>
                         </div>
                     </Fade>
                 </div>
             </div>
-
 
             <div className='full_page'>
                 <div className='container'>
@@ -142,11 +181,11 @@ function Main(){
                         </div>
                         <div className='line'></div>
                     </Fade>
-                    <Fade left duration={1600}>
+                    {/* <Fade left duration={1600}>
                         <div className='title'>Skill</div>
                         <div>
                             <ul>
-                                <li><b>Front-End:</b> HTML5/CSS3, Javascript(ES6), JSP, JQuery, React.js</li>
+                                <li><b>Front-End:</b> HTML5/CSS3, Javascript(ES6), JQuery, React.js</li>
                                 <li><b>Back-End:</b> AWS(EC2, S3), Node.js</li>
                                 <li><b>Database:</b> Maria DB(Mysql)</li>
                                 <li><b>Environment:</b> AWS, Linux, macOS, UNIX, Windows</li>
@@ -154,7 +193,7 @@ function Main(){
                             </ul>
                         </div>
                         <div className='line'></div>
-                    </Fade>
+                    </Fade> */}
                     <Fade right duration={1700}>
                         <div className='title'>Education</div>
                         <div className='education'>
