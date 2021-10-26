@@ -15,6 +15,7 @@ a{
 ul > li{
     font-size: 14px;
     font-weight: 300;
+    margin-bottom: 12px;
 }
 
 /* common */
@@ -71,9 +72,6 @@ ul > li{
     display: flex;
     flex-wrap: wrap;
     margin: 45px 0;
-}
-.experience:not(:last-child){
-    border-bottom: 1px solid #d2d6da;
 }
 .experience .experience_item:nth-child(odd){
     width: 20%;

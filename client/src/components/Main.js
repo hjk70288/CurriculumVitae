@@ -56,7 +56,7 @@ function Main(){
                             </div>
                             <div className='content'>
                                 반복적이고 비효율적인 과정을 개선하는 것을 좋아합니다.<br/>
-                                동료의 업무 처리 효과를 향상시키기 위해 백오피스를 개발한 경험이 있습니다.                                
+                                동료의 업무 처리 효과를 향상시키기 위해 백오피스의 기능을 자동화시킨 경험이 있습니다.
                             </div>
                         </div>
                     </Fade>
@@ -67,35 +67,73 @@ function Main(){
                 <div className='container'>
                     <Fade right duration={1100}>
                         <div className='title'>Work Experience</div>
+                        <div><u>세븐미어캣</u></div>
                         <div className='experience'>
                             <div className='experience_item'>
-                                <div><b>프로젝트</b></div>
-                                2021.02-<br/>
-                                현재<br/>
-                                (주)세븐미어캣
+                                <div><b>Front-End&<br/>Back-End</b></div>
                             </div>
                             <div className='experience_item'>
                                 <div><b>주차장 관리자 페이지 개발</b></div>
                                 <ul>
                                     <li>주차장 관리소장들이 사용하는 주차장을 관리할 수 있는 관리자 페이지 개발</li>
-                                    <li>Web Front-End(CSS3, EJS, Javascript(ES6), JQuery)</li>
-                                    <li>Web Back-End(Maria DB, Node.js)</li>
+                                    <li>실시간으로 주차장의 상태를 확인할 수 있는 CCTV 기능 제공</li>
+                                    <li>웹 페이지에서 차단기의 상태를 실시간으로 변경할 수 있는 기능 제공</li>
+                                    <li>주차장 입출차 내역 및 주차장에 등록된 차량 목록 엑셀 다운로드 기능 제공</li>
+                                    <li>아파트 투표 생성, 주차 할인권 적용, 앱 회원 관리 등 다양한 관리자 기능 제공</li>
                                 </ul>
-                                <div className='line_space'></div>
+                            </div>
+                        </div>
+                        <div className='experience'>
+                            <div className='experience_item'>
+                                <div><b>Front-End&<br/>Back-End</b></div>
+                            </div>
+                            <div className='experience_item'>
+                                <div><b>주차장 관리자 페이지 모바일 페이지 개발</b></div> 
+                                <ul>
+                                    <li>주차장 관리자의 모바일 버전 개발</li>
+                                    <li>주차장 관리자 URL로 접속 시 해당 기기를 판단하여<br/>해당 기기에 적합한 URL로 Redirect</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className='experience'>
+                            <div className='experience_item'>
+                                <div><b>Front-End&<br/>Back-End</b></div>
+                            </div>
+                            <div className='experience_item'>
                                 <div><b>중앙 관리자 페이지 개발</b></div>
                                 <ul>
-                                    <li>주차장, 차량, 앱 사용자, 결제 등 세븐미어캣의 모든 통계를 분석하고 관리하는 관리자 페이지 개발</li>
-                                    <li>Web Front-End(CSS Module, Javascript(ES6), React.js)</li>
-                                    <li>Web Back-End(Maria DB, Node.js)</li>
+                                    <li>주차장, 차량, 앱 사용자, 커머스 등 세븐미어캣의 모든 요소들을<br/>총괄하고 분석하는 관리자 페이지 개발</li>
+                                    <li>HighChart를 사용하여 다양한 종류의 차트를 지닌 대시보드 제공</li>
+                                    <li>Redux를 통한 상태관리 및 Authentication</li>
+                                    <li>커머스 관리의 편의를 위한 주문서 수집 자동화 스케줄러를 통한 주문관리 자동화 기능 제공</li>
                                 </ul>
-                                <div className='line_space'></div>
+                            </div>
+                        </div>
+                    </Fade>
+                </div>
+            </div>
+
+            <div className='full_page'>
+                <div className='container'>
+                    <Fade right duration={1100}>
+                        <div className='experience'>
+                            <div className='experience_item'>
+                                <div><b>Front-End&<br/>Back-End</b></div>
+                            </div>
+                            <div className='experience_item'>
                                 <div><b>회사 홈페이지 개발</b></div>
                                 <ul>
                                     <li>(주)세븐미어캣 공식 회사 홈페이지 개발</li>
                                     <li>Web Front-End(CSS Module, Javascript(ES6), React.js)</li>
                                     <li>Web Back-End(Node.js, Maria DB)</li>
                                 </ul>
-                                <div className='line_space'></div>
+                            </div>
+                        </div>
+                        <div className='experience'>
+                            <div className='experience_item'>
+                                <div><b>Server Develop</b></div>
+                            </div>
+                            <div className='experience_item'>
                                 <div><b>세븐미어캣 API 서버 개발</b></div>
                                 <ul>
                                     <li>주차장 발권기, 정산기 용지 부족시 카카오 알림톡 전송 API</li>
@@ -106,12 +144,12 @@ function Main(){
                             </div>
                         </div>
                     </Fade>
+                    <div className='line'></div>
                     <Fade right duration={1200}>
+                        <div><u>졸업작품</u></div>
                         <div className='experience'>
                             <div className='experience_item'>
-                                <div><b>졸업작품</b></div>
-                                2020.06-<br/>
-                                2021.08
+                                <div><b>Server Develop</b></div>
                             </div>
                             <div className='experience_item'>
                                 <div><b>시각 장애인을 위한 학습 보조 점자 시스템 개발</b></div>
