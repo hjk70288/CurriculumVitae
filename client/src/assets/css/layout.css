@@ -17,6 +17,15 @@ ul > li{
     font-weight: 300;
     margin-bottom: 12px;
 }
+ol > li{
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+b{
+    font-weight: 600;
+}
+
 
 /* common */
 .full_page{
@@ -68,10 +77,15 @@ ul > li{
 }
 
 /* experience */
+.experience_source{
+    font-size: 21px;
+    margin: 24px 0 8px 0;
+    font-weight: 700;
+}
 .experience{
     display: flex;
     flex-wrap: wrap;
-    margin: 45px 0;
+    margin-bottom: 45px;
 }
 .experience .experience_item:nth-child(odd){
     width: 20%;

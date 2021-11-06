@@ -67,7 +67,7 @@ function Main(){
                 <div className='container'>
                     <Fade right duration={1100}>
                         <div className='title'>Work Experience</div>
-                        <div><u>세븐미어캣</u></div>
+                        <div className='experience_source'><u>세븐미어캣</u></div>
                         <div className='experience'>
                             <div className='experience_item'>
                                 <div><b>Front-End&<br/>Back-End</b></div>
@@ -104,8 +104,8 @@ function Main(){
                                 <ul>
                                     <li>주차장, 차량, 앱 사용자, 커머스 등 세븐미어캣의 모든 요소들을<br/>총괄하고 분석하는 관리자 페이지 개발</li>
                                     <li>HighChart를 사용하여 다양한 종류의 차트를 지닌 대시보드 제공</li>
-                                    <li>Redux를 통한 상태관리 및 Authentication</li>
-                                    <li>커머스 관리의 편의를 위한 주문서 수집 자동화 스케줄러를 통한 주문관리 자동화 기능 제공</li>
+                                    <li>Redux를 통한 전역 상태관리 및 Authentication</li>
+                                    <li>커머스 관리의 편의를 위한 주문서 수집 자동화 스케줄러를 통한 주문관리 자동화 기능 개발</li>
                                 </ul>
                             </div>
                         </div>
@@ -123,9 +123,13 @@ function Main(){
                             <div className='experience_item'>
                                 <div><b>회사 홈페이지 개발</b></div>
                                 <ul>
-                                    <li>(주)세븐미어캣 공식 회사 홈페이지 개발</li>
-                                    <li>Web Front-End(CSS Module, Javascript(ES6), React.js)</li>
-                                    <li>Web Back-End(Node.js, Maria DB)</li>
+                                    <li>(주)세븐미어캣의 공식 회사 홈페이지 개발</li>
+                                    <li>등록되어있는 전체 차량 정보를 Progress Bar로 표현</li>
+                                    <li>
+										<a target='_blank' rel="noopener noreferrer" href='http://7meerkat.com'>
+											<b>홈페이지로 이동</b>
+										</a>
+									</li>
                                 </ul>
                             </div>
                         </div>
@@ -136,17 +140,20 @@ function Main(){
                             <div className='experience_item'>
                                 <div><b>세븐미어캣 API 서버 개발</b></div>
                                 <ul>
-                                    <li>주차장 발권기, 정산기 용지 부족시 카카오 알림톡 전송 API</li>
-                                    <li>주차장 정산기 QR결제 API</li>
-                                    <li>세븐미어캣 앱 Firebase(FCM) 푸시 알람 전송 API</li>
-                                    <li>Web Back-End(Node.js, Maria DB)</li>
+                                    <li>부트페이를 통한 결제 및 결제 취소 API 개발</li>
+                                    <ul>
+                                        <li>주차장 정산기 QR결제 API 개발</li>
+                                        <li>공동구매 결제, 취소 API 개발</li>
+                                    </ul>
+                                    <li>주차장 발권기, 정산기 용지 부족시 카카오 알림톡 전송 API 개발</li>
+                                    <li>세븐미어캣 앱 Firebase(FCM) 푸시 알람 전송 API 개발</li>
                                 </ul>
                             </div>
                         </div>
                     </Fade>
                     <div className='line'></div>
                     <Fade right duration={1200}>
-                        <div><u>졸업작품</u></div>
+                        <div className='experience_source'><u>졸업작품</u></div>
                         <div className='experience'>
                             <div className='experience_item'>
                                 <div><b>Server Develop</b></div>
@@ -156,6 +163,9 @@ function Main(){
                                 <ul>
                                     <li>사용자로부터 이미지를 전송받아 OCR을 통해 텍스트를 추출하는 서버 개발</li>
                                     <li>서버는 AWS의 EC2(Ubuntu 18.04) 인스턴스로 개발</li>
+                                    <li>OpenCV를 통한 이미지 전처리</li>
+                                    <li>OCR은 Google Cloud의 Vision API를 통해 구현</li>
+                                    <li>맞춤법 검사를 통한 텍스트 후처리</li>
                                 </ul>
                             </div>
                         </div>
