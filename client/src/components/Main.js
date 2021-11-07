@@ -18,11 +18,8 @@ function Main(){
     const [current_page, setCurrentPage] = useState();
 
     const handlePageChange = (page) => {
-        setCurrentPage(page);
-    };
-	
-	const handleClickMenu = (page) => {
 		let selected_index = 0;
+		page = page === 2 ? 1 : page;
 		const menu_list = document.getElementsByClassName('menu');
 		for(let menu_index = 0; menu_index < menu_list.length; menu_index++){
 			menu_list[menu_index].classList.remove('selected');
@@ -30,9 +27,10 @@ function Main(){
 				selected_index = menu_index;
 			}
 		}
-		setCurrentPage(page);
 		menu_list[selected_index].classList.add('selected');
-	}
+
+		setCurrentPage(page);
+    };
 
     return(
 		<>
@@ -41,10 +39,10 @@ function Main(){
 					KYM
 				</div>
 				<div className='menu_wraper'>
-					<div className='menu selected' index={0} onClick={(e) => handleClickMenu(0)}>Contact & Introduce</div>
-					<div className='menu' index={1} onClick={(e) => handleClickMenu(1)}>Work Experience</div>
-					<div className='menu' index={3} onClick={(e) => handleClickMenu(3)}>Tech Skills</div>
-					<div className='menu' index={4} onClick={(e) => handleClickMenu(4)}>License and Certificate & Education</div>
+					<div className='menu selected' index={0} onClick={() => setCurrentPage(0)}>Contact & Introduce</div>
+					<div className='menu' index={1} onClick={() => setCurrentPage(1)}>Work Experience</div>
+					<div className='menu' index={3} onClick={() => setCurrentPage(3)}>Tech Skills</div>
+					<div className='menu' index={4} onClick={() => setCurrentPage(4)}>License and Certificate & Education</div>
 				</div>
 			</div>
 			<ReactPageScroller
