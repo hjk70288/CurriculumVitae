@@ -57,7 +57,7 @@ function Main(){
 				<div className='full_page'>
 					<div className='container'>
 						<Fade left duration={1200}>
-							<h3 className='me'>개발자 김용민 입니다.</h3>                        
+							<h3 className='me'>개발자 김용민 입니다.</h3>
 							<div className='contact'>
 								<div className='profile_wrap'>
 									<img className='profile' src={profile} alt=''></img>
@@ -76,7 +76,7 @@ function Main(){
 							<div className='introduce'>
 								<div className='content'>
 									올해 2월부터 현재까지 (주)세븐미어캣에서 웹 서비스를 기획/개발/배포/운영하고 있습니다.<br/>
-									Node + React를 바탕으로 주차장을 관리하고 통계를 분석하는 서비스를 개발했습니다.                                
+									Node + React를 바탕으로 주차장을 관리하고 통계를 분석하는 서비스를 개발했습니다.
 								</div>
 								<div className='content'>
 									새로운 것에 대해 익히고 경험하는 것을 두려워하지 않습니다.<br/>
