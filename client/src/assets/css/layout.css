@@ -45,14 +45,14 @@ b{
     font-weight: 900;
 }
 .header .menu_wraper{
-    width: 500px;
+    width: 540px;
     display: flex;
     justify-content: space-between;
     padding-right: 48px;
 }
 .header .menu_wraper .menu{
     cursor: pointer;
-    font-size: 8px;
+    font-size: 12px;
     font-weight: 300;
 }
 .header .menu_wraper .selected{
@@ -67,6 +67,7 @@ b{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .container{
     max-width: 800px;
@@ -83,6 +84,12 @@ b{
     margin: 70px 0;
     background-color: #d2d6da;
 }
+.to_top{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    cursor: pointer;
+}
 
 /* contact */
 .contact{
@@ -98,6 +105,13 @@ b{
 }
 .contact .content{
     padding: 24px 30px 0 0;
+}
+.contact .content p{
+    display: flex;
+    align-items: center;
+}
+.contact .content p img{
+    margin-right: 12px;
 }
 
 /* introduce */
@@ -139,25 +153,6 @@ b{
 }
 
 /* skill */
-.sub_title{
-    font-size: 24px;
-    font-weight: 700;
-}
-.skill_container{
-    margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.skill_item{
-    /* flex: 0 1 45%; */
-    width: 45%;
-    height: 250px;
-    border-radius: 8px;
-    box-shadow: 5px 5px 24px rgb(68 68 68 / 20%);
-}
-.skill_item:not(:nth-child(2n)){
-    margin: 0 24px 24px 0;
-}
 .skills >img{
     height: 70px;
 }
@@ -196,6 +191,9 @@ b{
     }
     .contact .content{
         font-size: 12px;
+    }
+    .contact .content p img{
+        height: 14px;
     }
 
     /* introduce */

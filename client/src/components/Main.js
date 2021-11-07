@@ -1,15 +1,20 @@
 import React, { useState } from 'react';
 import '../assets/css/layout.css';
 import profile from '../assets/image/profile.jpg';
+import github_icon from '../assets/image/contact/github.svg';
+import phone_icon from '../assets/image/contact/phone.svg';
+import email_icon from '../assets/image/contact/email.svg';
 import html_icon from '../assets/image/skill/html.png';
 import css_icon from '../assets/image/skill/css.png';
+import sass_icon from '../assets/image/skill/sass.png';
 import js_icon from '../assets/image/skill/js.png';
 import react_icon from '../assets/image/skill/react.png';
 import jquery_icon from '../assets/image/skill/jquery.png';
-import aws_icon from '../assets/image/skill/aws.svg';
+import aws_icon from '../assets/image/skill/aws.png';
 import nodejs_icon from '../assets/image/skill/nodejs.png';
-import maria_db_icon from '../assets/image/skill/maria_db.svg';
+import maria_db_icon from '../assets/image/skill/maria_db.png';
 import git_icon from '../assets/image/skill/git.png';
+import top_button_icon from '../assets/image/top_button.png';
 import Fade from 'react-reveal/Fade';
 import ReactPageScroller from "react-page-scroller";
 
@@ -59,9 +64,9 @@ function Main(){
 								</div>
 								<div className='content'>
 									<div className='title'>Contact</div>
-									<p>Email. <b>kimyongmin1228@gmail.com</b></p>
-									<p>Phone. <b>010-3703-0728</b></p>
-									<p>GitHub. <b><a href='https://github.com/hjk70288'>https://github.com/hjk70288</a></b></p>
+									<p><img src={email_icon} alt=''/> <b>kimyongmin1228@gmail.com</b></p>
+									<p><img src={phone_icon} alt=''/> <b>010-3703-0728</b></p>
+									<p><img src={github_icon} alt=''/> <b><a href='https://github.com/hjk70288'>https://github.com/hjk70288</a></b></p>
 								</div>
 							</div>
 							<div className='line'></div>
@@ -202,30 +207,31 @@ function Main(){
 							<div className='title'>Tech Skills</div>
 							<div className='skill_container'>
 								<div className='skill_item'>
-									<div className='sub_title'>Front-End</div>
+									<div>Front-End</div>
 									<div className='skills'>
 										<img src={html_icon} alt=''></img>
 										<img src={css_icon} alt=''></img>
+										<img src={sass_icon} alt=''></img>
 										<img src={js_icon} alt=''></img>
 										<img src={jquery_icon} alt=''></img>
 										<img src={react_icon} alt=''></img>
 									</div>
 								</div>
 								<div className='skill_item'>
-									<div className='sub_title'>Back-End</div>
+									<div>Back-End</div>
 									<div className='skills'>
 										<img src={aws_icon} alt=''></img>
 										<img src={nodejs_icon} alt=''></img>
 									</div>
 								</div>
 								<div className='skill_item'>
-									<div className='sub_title'>Database</div>
+									<div>Database</div>
 									<div className='skills'>
 										<img src={maria_db_icon} alt=''></img>
 									</div>
 								</div>
 								<div className='skill_item'>
-									<div className='sub_title'>Configuration Management</div>
+									<div>Configuration Management</div>
 									<div className='skills'>
 										<img src={git_icon} alt=''></img>
 									</div>
@@ -270,6 +276,12 @@ function Main(){
 							<div className='education'>
 								2018.02-2022.02 한국산업기술대학교 컴퓨터공학과
 							</div>
+							<img 
+								className='to_top'
+								src={top_button_icon}
+								alt=''
+								onClick={() => setCurrentPage(0)}
+							/>
 						</Fade>
 					</div>
 				</div>
