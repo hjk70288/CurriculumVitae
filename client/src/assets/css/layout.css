@@ -39,10 +39,11 @@ b{
     justify-content: space-between;
     align-items: center;
     padding-left: 24px;
+    box-shadow: 0px 0px 3px rgb(0 0 0 / 16%);
 }
 .header .header_title{
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 600;
 }
 .header .menu_wraper{
     width: 540px;
@@ -68,6 +69,7 @@ b{
     justify-content: center;
     align-items: center;
     position: relative;
+    padding-top: 25px;
 }
 .container{
     max-width: 800px;
@@ -76,7 +78,7 @@ b{
 .title{
     font-size: 36px;
     color: #ff8331;
-    font-weight: 700;
+    font-weight: 400;
 }
 .line{
     width: 100%;
@@ -102,6 +104,7 @@ b{
 }
 .contact .profile_wrap .profile{
     height: 240px;
+    border-radius: 12px;
 }
 .contact .content{
     padding: 24px 30px 0 0;
@@ -114,20 +117,26 @@ b{
     margin-right: 12px;
 }
 
+/* introduce me */
+.me{
+    font-size: 16px;
+    font-weight: 600;
+}
+
 /* introduce */
 .introduce{
     margin-top: 8px;
 }
 .introduce .content{
    margin-bottom: 24px;
-   font-weight: 400;
+   font-weight: 300;
 }
 
 /* experience */
 .experience_source{
     font-size: 21px;
     margin: 24px 0 8px 0;
-    font-weight: 700;
+    font-weight: 600;
 }
 .experience{
     display: flex;
@@ -153,8 +162,41 @@ b{
 }
 
 /* skill */
-.skills >img{
-    height: 70px;
+.skill_container{
+    padding: 50px;
+}
+.skill_container .skill_item:not(:last-child){
+    margin-bottom: 24px;
+}
+.skill_container .skill_item .skill_category{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.skill_container .skill_item .skills{
+    display: flex;
+    flex-flow: wrap;
+}
+.skill_container .skill_item .skills .skill{
+    display: flex;
+    flex-flow: column;
+}
+.skill_container .skill_item .skills .skill > img{
+    height: 50px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 12px rgb(0 0 0 / 16%);
+    padding: 18px;
+    background-color: #ffffff;
+}
+.skill_container .skill_item .skills .skill > img:not(:last-child){
+    margin-right: 12px;
+}
+.skill_container .skill_item .skills .skill > span{
+    text-align: center;
+    margin: 4px 0;
+    padding-right: 12px;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 
@@ -199,7 +241,6 @@ b{
     /* introduce */
     .introduce .content{
         margin-bottom: 24px;
-        font-weight: 400;
         font-size: 8px;
     }
 
@@ -223,10 +264,13 @@ b{
     }
 
     /* skill */
-    .sub_title{
-        font-size: 16px;
+    .skill_container{
+        padding: 20px;
     }
-    .skills >img{
-        height: 40px;
+    .skill_container .skill_item .skill_category{
+        font-size: 14px !important;
+    }
+    .skill > img{
+        height: 35px !important;
     }
 }
