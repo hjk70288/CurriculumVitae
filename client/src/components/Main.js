@@ -237,6 +237,7 @@ function Main(){
 										</div>
 									</div>
 								</div>
+								<div className='line'></div>
 								<div className='skill_item'>
 									<div className='skill_category'>Back-End</div>
 									<div className='skills'>
@@ -254,6 +255,7 @@ function Main(){
 										</div>
 									</div>
 								</div>
+								<div className='line'></div>
 								<div className='skill_item'>
 									<div className='skill_category'>DevOps</div>
 									<div className='skills'>
