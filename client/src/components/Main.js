@@ -58,7 +58,7 @@ function Main(){
 			>
 				<div className='full_page'>
 					<div className='container'>
-						<Fade left duration={1200}>
+						<Fade left duration={1300}>
 							<h3 className='me'>개발자 김용민 입니다.</h3>
 							<div className='contact'>
 								<div className='profile_wrap'>
@@ -73,7 +73,7 @@ function Main(){
 							</div>
 							<div className='line'></div>
 						</Fade>
-						<Fade right duration={1200}>
+						<Fade right duration={1300}>
 							<div className='title'>Introduce</div>
 							<div className='introduce'>
 								<div className='content'>
@@ -95,7 +95,7 @@ function Main(){
 
 				<div className='full_page'>
 					<div className='container'>
-						<Fade right duration={1100}>
+						<Fade right duration={1300}>
 							<div className='title'>Work Experience</div>
 							<div className='experience_source'><u>세븐미어캣</u></div>
 							<div className='experience'>
@@ -145,7 +145,7 @@ function Main(){
 
 				<div className='full_page'>
 					<div className='container'>
-						<Fade right duration={1100}>
+						<Fade right duration={1300}>
 							<div className='experience'>
 								<div className='experience_item'>
 									<div><b>Front-End&<br/>Back-End</b></div>
@@ -180,9 +180,9 @@ function Main(){
 									</ul>
 								</div>
 							</div>
+							<div className='line'></div>
 						</Fade>
-						<div className='line'></div>
-						<Fade right duration={1200}>
+						<Fade right duration={1500}>
 							<div className='experience_source'><u>졸업작품</u></div>
 							<div className='experience'>
 								<div className='experience_item'>
@@ -205,7 +205,7 @@ function Main(){
 
 				<div className='full_page'>
 					<div className='container'>
-						<Fade left duration={1100}>
+						<Fade left duration={1300}>
 							<div className='title'>Tech Skills</div>
 							<div className='skill_container'>
 								<div className='skill_item'>
@@ -278,7 +278,7 @@ function Main(){
 
 				<div className='full_page'>
 					<div className='container'>
-						<Fade right duration={1500}>
+						<Fade right duration={1300}>
 							<div className='title'>License and Certificate</div>
 							<div className='license'>
 								<div><b>자격증</b></div>
@@ -293,20 +293,7 @@ function Main(){
 							</div>
 							<div className='line'></div>
 						</Fade>
-						{/* <Fade left duration={1600}>
-							<div className='title'>Skill</div>
-							<div>
-								<ul>
-									<li><b>Front-End:</b> HTML5/CSS3, Javascript(ES6), JQuery, React.js</li>
-									<li><b>Back-End:</b> AWS(EC2, S3), Node.js</li>
-									<li><b>Database:</b> Maria DB(Mysql)</li>
-									<li><b>Environment:</b> AWS, Linux, macOS, UNIX, Windows</li>
-									<li><b>Configuration Management:</b> Git(GitHub, GitLab)</li>
-								</ul>
-							</div>
-							<div className='line'></div>
-						</Fade> */}
-						<Fade right duration={1700}>
+						<Fade right duration={1500}>
 							<div className='title'>Education</div>
 							<div className='education'>
 								2018.02-2022.02 한국산업기술대학교 컴퓨터공학과
