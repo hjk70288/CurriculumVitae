@@ -59,7 +59,7 @@ function Main(){
 				<div className='full_page'>
 					<div className='container'>
 						<Fade left duration={1300}>
-							<h3 className='me'>안녕하세요 개발자 김용민 입니다!</h3>
+							<h3 className='me'>안녕하세요. 개발자 김용민 입니다!</h3>
 							<div className='contact'>
 								<div className='profile_wrap'>
 									<img className='profile' src={profile} alt=''></img>
