@@ -171,7 +171,7 @@ function Main(){
 								<div className='experience_item'>
 									<div><b>세븐미어캣 API 서버 개발</b></div>
 									<ul>
-										<li>부트페이를 통한 결제 및 결제 취소 API 개발</li>
+										<li>부트페이를 통한 PG결제 및 결제 취소 API 개발</li>
 										<ul>
 											<li>주차장 정산기 QR결제 API 개발</li>
 											<li>공동구매 결제, 취소 API 개발</li>
