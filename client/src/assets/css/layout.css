@@ -1,6 +1,6 @@
 @import url(https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 * {
-    font-family: "Spoqa Han Sans Neo", "sans-serif";
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
 }
 html,
 body {
@@ -8,272 +8,273 @@ body {
   padding: 0;
   overflow: hidden;
 }
-a{
-    color: #000000;
-    text-decoration: none;
+a {
+  color: #000000;
+  text-decoration: none;
 }
-ul > li{
-    font-size: 14px;
-    font-weight: 300;
-    margin-bottom: 12px;
+ul > li {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 12px;
 }
-ol > li{
-    font-size: 14px;
-    font-weight: 300;
-    margin-bottom: 12px;
+ol > li {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 12px;
 }
-b{
-    font-weight: 600;
+b {
+  font-weight: 600;
 }
 
 /* header */
-.header{
-    width: 100%;
-    height: 50px;
-    background: #FFFFFF;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 24px;
-    box-shadow: 0px 0px 3px rgb(0 0 0 / 16%);
+.header {
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 24px;
+  box-shadow: 0px 0px 3px rgb(0 0 0 / 16%);
 }
-.header .header_title{
-    font-size: 16px;
-    font-weight: 600;
+.header .header_title {
+  font-size: 16px;
+  font-weight: 600;
 }
-.header .menu_wraper{
-    width: 540px;
-    display: flex;
-    justify-content: space-between;
-    padding-right: 48px;
+.header .menu_wraper {
+  width: 540px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 48px;
 }
-.header .menu_wraper .menu{
-    cursor: pointer;
-    font-size: 12px;
-    font-weight: 300;
+.header .menu_wraper .menu {
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 300;
 }
-.header .menu_wraper .selected{
-    font-size: 12px;
-    font-weight: 600 !important;
+.header .menu_wraper .selected {
+  font-size: 12px;
+  font-weight: 600 !important;
 }
 
 /* common */
-.full_page{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+.full_page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
-.container{
-    max-width: 800px;
-    min-width: 260px;
-    margin-top: 25px;
+.container {
+  max-width: 800px;
+  min-width: 260px;
+  margin-top: 25px;
 }
-.title{
-    font-size: 36px;
-    color: #ff8331;
-    font-weight: 400;
+.title {
+  font-size: 36px;
+  color: #ff8331;
+  font-weight: 400;
 }
-.line{
-    width: 100%;
-    height: 1px;
-    margin: 35px 0;
-    background-color: #d2d6da;
+.line {
+  width: 100%;
+  height: 1px;
+  margin: 35px 0;
+  background-color: #d2d6da;
 }
-.to_top{
-    position: absolute;
-    right: 50px;
-    bottom: 50px;
-    cursor: pointer;
+.to_top {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  cursor: pointer;
 }
 
 /* contact */
-.contact{
-    display: flex;
-    justify-content: space-between;
+.contact {
+  display: flex;
+  justify-content: space-between;
 }
-.contact .profile_wrap{
-    display: flex;
-    align-items: center;
+.contact .profile_wrap {
+  display: flex;
+  align-items: center;
 }
-.contact .profile_wrap .profile{
-    height: 240px;
-    border-radius: 12px;
+.contact .profile_wrap .profile {
+  height: 240px;
+  border-radius: 12px;
 }
-.contact .content{
-    padding: 24px 30px 0 0;
+.contact .content {
+  padding: 24px 30px 0 0;
 }
-.contact .content p{
-    display: flex;
-    align-items: center;
+.contact .content p {
+  display: flex;
+  align-items: center;
 }
-.contact .content p img{
-    margin-right: 12px;
+.contact .content p img {
+  margin-right: 12px;
 }
 
 /* introduce me */
-.me{
-    font-size: 16px;
-    font-weight: 600;
+.me {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 /* introduce */
-.introduce{
-    margin-top: 8px;
+.introduce {
+  margin-top: 8px;
 }
-.introduce .content{
-   margin-bottom: 24px;
-   font-weight: 300;
+.introduce .content {
+  margin-bottom: 24px;
+  font-weight: 300;
 }
 
 /* experience */
-.experience_source{
-    font-size: 21px;
-    margin: 24px 0 8px 0;
-    font-weight: 600;
+.experience_source {
+  font-size: 21px;
+  margin: 24px 0 8px 0;
+  font-weight: 600;
 }
-.experience{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 45px;
+.experience {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 45px;
 }
-.experience .experience_item:nth-child(odd){
-    width: 20%;
+.experience .experience_item:nth-child(odd) {
+  width: 20%;
 }
-.experience .experience_item:nth-child(even){
-    width: 75%;
+.experience .experience_item:nth-child(even) {
+  width: 75%;
 }
-.experience .line_space{margin: 24px;}
+.experience .line_space {
+  margin: 24px;
+}
 
 /* license */
-.license{
-    margin-top: 8px;
+.license {
+  margin-top: 8px;
 }
 
 /* education */
-.education{
-    margin-top: 8px;
+.education {
+  margin-top: 8px;
 }
 
 /* skill */
-.skill_container{
-    padding: 50px;
+.skill_container {
+  padding: 50px;
 }
-.skill_container .skill_item:not(:last-child){
-    margin-bottom: 24px;
+.skill_container .skill_item:not(:last-child) {
+  margin-bottom: 24px;
 }
-.skill_container .skill_item .skill_category{
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 4px;
+.skill_container .skill_item .skill_category {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
 }
-.skill_container .skill_item .skills{
-    display: flex;
-    flex-flow: wrap;
+.skill_container .skill_item .skills {
+  display: flex;
+  flex-flow: wrap;
 }
-.skill_container .skill_item .skills .skill{
-    display: flex;
-    flex-flow: column;
+.skill_container .skill_item .skills .skill {
+  display: flex;
+  flex-flow: column;
 }
-.skill_container .skill_item .skills .skill > img{
-    height: 50px;
-    border-radius: 12px;
-    box-shadow: 3px 3px 12px rgb(0 0 0 / 16%);
-    padding: 18px;
-    background-color: #ffffff;
+.skill_container .skill_item .skills .skill > img {
+  height: 50px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 12px rgb(0 0 0 / 16%);
+  padding: 18px;
+  background-color: #ffffff;
 }
-.skill_container .skill_item .skills .skill > img:not(:last-child){
-    margin-right: 12px;
+.skill_container .skill_item .skills .skill > img:not(:last-child) {
+  margin-right: 12px;
 }
-.skill_container .skill_item .skills .skill > span{
-    text-align: center;
-    margin: 4px 0;
-    padding-right: 12px;
-    font-size: 12px;
-    font-weight: 400;
+.skill_container .skill_item .skills .skill > span {
+  text-align: center;
+  margin: 4px 0;
+  padding-right: 12px;
+  font-size: 12px;
+  font-weight: 400;
 }
-
 
 @media (max-width: 710px) {
-    /* header */
-    .header .menu_wraper{
-        display: none;
-    }
+  /* header */
+  .header .menu_wraper {
+    display: none;
+  }
 
-    /* layout */
-    .container{
-        padding: 0 24px;
-    }
-    .title{
-        font-size: 18px;
-    }
-    .line{
-        margin: 30px 0;
-    }
-    ul > li{
-        font-size: 8px;
-        font-weight: 300;
-    }
+  /* layout */
+  .container {
+    padding: 0 24px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .line {
+    margin: 30px 0;
+  }
+  ul > li {
+    font-size: 8px;
+    font-weight: 300;
+  }
 
-    /* introduce me */
-    .me{
-        font-size: 16px;
-    }
+  /* introduce me */
+  .me {
+    font-size: 16px;
+  }
 
-    /* contact */
-    .contact .profile_wrap .profile{
-        height: 120px;
-        margin-right: 24px;
-    }
-    .contact .content{
-        font-size: 12px;
-    }
-    .contact .content p img{
-        height: 14px;
-    }
+  /* contact */
+  .contact .profile_wrap .profile {
+    height: 120px;
+    margin-right: 24px;
+  }
+  .contact .content {
+    font-size: 12px;
+  }
+  .contact .content p img {
+    height: 14px;
+  }
 
-    /* introduce */
-    .introduce .content{
-        margin-bottom: 24px;
-        font-size: 8px;
-    }
+  /* introduce */
+  .introduce .content {
+    margin-bottom: 24px;
+    font-size: 8px;
+  }
 
-    /* experience */
-    .experience{
-        margin: 12px 0;
-        font-size: 10px;
-    }
-    .experience_source{
-        font-size: 15px;
-    }
+  /* experience */
+  .experience {
+    margin: 12px 0;
+    font-size: 10px;
+  }
+  .experience_source {
+    font-size: 15px;
+  }
 
-    /* license */
-    .license{
-        font-size: 8px;
-    }
+  /* license */
+  .license {
+    font-size: 8px;
+  }
 
-    /* education */
-    .education{
-        font-size: 8px;
-    }
+  /* education */
+  .education {
+    font-size: 8px;
+  }
 
-    /* skill */
-    .skill_container{
-        padding: 20px;
-    }
-    .skill_container .skill_item .skill_category{
-        font-size: 14px !important;
-    }
-    .skill_container .skill_item .skills{
-        justify-content: center;
-    }
-    .skill_container .skill_item .skills .skill > img{
-        height: 35px !important;
-    }
+  /* skill */
+  .skill_container {
+    padding: 20px;
+  }
+  .skill_container .skill_item .skill_category {
+    font-size: 14px !important;
+  }
+  .skill_container .skill_item .skills {
+    justify-content: center;
+  }
+  .skill_container .skill_item .skills .skill > img {
+    height: 35px !important;
+  }
 }
