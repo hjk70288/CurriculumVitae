@@ -1,0 +1,12 @@
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    svg{
+      background-color: #000000;
+    }
+    svg text { 
+      font: 6px serif;
+      fill: #FFFFFF;
+    }
+  </style>
+  <text x="0.6" y="10">KYM</text>
+</svg>
