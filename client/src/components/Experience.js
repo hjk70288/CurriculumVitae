@@ -143,10 +143,44 @@ function Experience() {
               </div>
               <ul>
                 <li>사용자로부터 이미지를 전송받아 OCR을 통해 텍스트를 추출하는 서버 개발</li>
-                <li>서버는 AWS의 EC2(Ubuntu 18.04) 인스턴스로 개발</li>
+                <li>서버는 AWS의 EC2(Ubuntu 18.04) 인스턴스를 사용</li>
                 <li>OpenCV를 통한 이미지 전처리</li>
                 <li>OCR은 Google Cloud의 Vision API를 통해 구현</li>
                 <li>맞춤법 검사를 통한 텍스트 후처리</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div {...useScrollFadeIn("left", 1, 0)}>
+          <div className="line"></div>
+          <div className="experience_source">
+            <u>개인 프로젝트</u>
+          </div>
+          <div className="experience">
+            <div className="experience_item">
+              <div>
+                <b>
+                  Front-End&
+                  <br />
+                  Back-End
+                </b>
+              </div>
+            </div>
+            <div className="experience_item">
+              <div>
+                <b>온라인 전시회 VARIOUS</b>
+              </div>
+              <ul>
+                <li>동생이 그린 작품을 온라인으로 전시하는 프로젝트</li>
+                <li>메인 페이지와 작품 별 상세 페이지로 구성</li>
+                <li>React를 사용하여 개발</li>
+                <li>서버는 AWS의 EC2(Ubuntu 18.04) 인스턴스, 웹서버는 Nginx를 사용</li>
+                <li>서버비 이슈로 인해 현재는 Github Pages 사용</li>
+                <li>
+                  <a target="_blank" rel="noreferrer" href="https://hjk70288.github.io/Various">
+                    <b>보러가기</b>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
